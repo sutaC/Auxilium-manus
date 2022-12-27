@@ -3,7 +3,7 @@ body {
 
     font-family: 'Roboto';
     text-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
-    
+
     overflow: hidden;
 }
 
@@ -21,52 +21,69 @@ img {
     -webkit-user-select: none;
     -ms-user-select: none;
 
-    }
-    div {
-        background-color: white;
-        position: absolute;
+}
 
-        box-shadow: 0vw -4vw 37vw rgba(0, 0, 0, 0.5);
-        border-radius: 2.5vw;  
+div {
+    background-color: white;
+    position: absolute;
+
+    box-shadow: 0vw -4vw 37vw rgba(0, 0, 0, 0.5);
+    border-radius: 2.5vw;  
         
-        text-align: center;
-    }
+    text-align: center;
+}
 
-    p {
-        width: 60%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+p, label{
 
-        text-align: left;
-        opacity: 0.7;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-    }
+    text-align: left;
+    opacity: 0.7;
 
-    a {
-        text-decoration-line: underline;
-        color: black;
-    }
+}
 
-    button {
+a {
+    text-decoration-line: underline;
+    color: black;
+}
 
-        margin: 2%;
-        padding: 2%;
-        padding-left: 20%;
-        padding-right: 20%;
+button {
 
-        font-family: 'Roboto';
-        color: white;
-        text-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
+     margin: 2%;
+    padding: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
 
-        background: #313131;
-        box-shadow: 0vw 1.5vw 2vw rgba(0, 0, 0, 0.25);
-        border: none;
-        border-radius: 2vw;
+    font-family: 'Roboto';
+    color: white;
+    text-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
 
-        cursor: pointer;
+    background: #313131;
+    box-shadow: 0vw 1.5vw 2vw rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 2vw;
 
-    }
+    cursor: pointer;
+
+}
+
+input {
+        
+    padding: 2%;
+    width: 60%;
+        
+    box-sizing: border-box;
+    border: 1px solid #A8A8A8;
+    border-radius: 11px;
+    outline: none;
+
+    font-family: 'Roboto';
+    text-shadow: 0vw 1vw 1vw rgba(0, 0, 0, 0.25);
+
+}
 
 
     /* Mobile view */
