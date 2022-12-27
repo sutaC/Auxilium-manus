@@ -7,7 +7,7 @@ body {
 
 }
 
-img {
+.imgBackground {
         
     position: absolute;
     display: block;
@@ -21,6 +21,12 @@ img {
     -webkit-user-select: none;
     -ms-user-select: none;
 
+}
+
+.imgArrow {
+    position: absolute;
+    right: 3%;
+    top: 3%;
 }
 
 div {
@@ -95,7 +101,7 @@ input {
         font-size: 2vh;
     }
 
-    img {
+    .imgBackground {
         width: 100%;
         left: 0%;
         top: -5%;
@@ -125,7 +131,7 @@ input {
         overflow: hidden;
     }
 
-    img {
+    .imgBackground {
         width: 68%;
         left: 32%;
         top: -40%;
