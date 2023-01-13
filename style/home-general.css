@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* ================================================================================================================ */
+    /* General */
+
+body {
+    font-family: 'Roboto';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+img {
+    mix-blend-mode: normal;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/* ================================================================================================================ */
+    /* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+
+    border-radius: 5%;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* ================================================================================================================ */
+    /* Navigation */
+nav {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 8%;
+    
+    background-color: #D9D9D9;
+}
+
+.menu-container {
+    display: inline-flex;
+
+    width: 20%;
+    height: 100%;
+
+    text-align: center;
+
+    background-color: #D9D9D9;
+}
+
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio] + span {
+    width: 100%;
+    height: 100%;
+    
+    cursor: pointer;
+}
+
+[type=radio]:checked + span {
+
+    position: absolute;
+    bottom: 0%;
+    
+    height: 110%;   
+    width: 20%;
+
+    background-color:#C8C8C8;
+}
+
+/* Desktop view */
+
+    .menu-container img {
+        margin: 0.5vw;
+        width: 3vw;
+        height: 3vw;
+    }
+
+/* Mobile view */
+@media only screen and (hover: none) and (orientation: portrait) {
+    .menu-container img {
+        margin: 2vw;
+        width: 8vw;
+        height: 8vw;
+    }
+}
