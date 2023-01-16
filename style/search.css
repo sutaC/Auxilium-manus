@@ -1,0 +1,22 @@
+.searchbar {
+    width: 80%;
+    height: max-content;
+
+    display: flex;
+
+    margin: auto;
+    margin-top: 3vh;
+
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.searchbar input {
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    font-size: large;
+    color: #CDCDCD;
+    ;
+}
