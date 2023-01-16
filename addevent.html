@@ -3,6 +3,7 @@
 <head>
 
     <link rel="stylesheet" href="style/home-general.css">
+    <link rel="stylesheet" href="style/addevent.css">
     <script src="script/jQuerry.js"></script>
     <script src="script/home.js" defer></script>
     
@@ -13,6 +14,53 @@
 </head>
 <body>
     
+    <header>
+
+        <h1>Dodaj wydarzenie</h1>
+
+        <div class="outerellipse"><div class="innerellipse"></div></div>
+
+    </header>
+
+    <section>
+
+        <div class="flex-container">
+            <div>
+                <label for="title">Tytuł wydarzenia</label><br>
+                <input type="text" placeholder="Tytuł" name="title">
+            </div>
+    
+            <img src="img/placeholder.png" alt="miniature" class="yourphoto"><br>
+        </div>
+
+        <label for="description">Opis wydarzenia</label><br>
+        <input type="text" placeholder="Opis" name="description"><br>
+
+        <br><br>
+
+        <div class="flex-container">
+            <label for="startdate">Data rozpoczęcia</label><br>
+            <input type="date" name="startdate">
+        </div>
+        <div class="flex-container">
+            <label for="enddate">Data zakończenia</label><br>
+            <input type="date" name="enddate">
+        </div>
+        <div class="flex-container">
+            <label for="location">Lokalizacja</label><br>
+            <input type="text" name="location">
+        </div>
+
+        <br>
+
+        <div class="flex-container">
+            <img src="img/placeholder.png" alt="yourimg" class="yourphoto">
+            <img src="img/placeholder.png" alt="yourimg" class="yourphoto">
+            <img src="img/placeholder.png" alt="yourimg" class="yourphoto">
+        </div>
+
+    </section>
+
     <nav>
         
         <label class="menu-container">

@@ -1,110 +1,5 @@
 /* ================================================================================================================ */
-    /* Header */
-header {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    
-    width: 100%;
-    height: fit-content;
-
-    display: flex;
-
-    background-color: #DFDFDF;
-}
-
-header h1 {
-    width: 65%;
-    height: 100%;
-
-    text-align: center;  
-}
-
-
-.outerellipse {
-    position: absolute; 
-
-    border-radius: 50%;
-
-    background-color: #C9C9C9;
-}
-
-.innerellipse {
-    position: absolute; 
-
-    border-radius: 50%;
-
-    background-color: #DFDFDF;
-}
-
-header img {
-    position: absolute; 
-
-    border-radius: 50%;
-}
-
-
-/* Desktop view */ 
-
-    .outerellipse {
-        top: -8vw;
-        right: -8vw;
-
-        width: 30vw;
-        height: 30vw;
-    }
-
-    .innerellipse {
-        top: 0vw;
-        right: 0vw;
-
-        width: 28.5vw;
-        height: 28.5vw;
-    }
-
-    header img {
-        top: 0vw;
-        right: 0vw;
-
-        width: 27.5vw;
-        height: 27.5vw;
-    }
- 
-/* Mobile view */
-@media only screen and (hover: none) and (orientation: portrait) { 
-
-    .outerellipse {
-        top: -10vw;
-        right: -10vw;
-    
-        width: 50vw;
-        height: 50vw;
-    }
-
-    .innerellipse {
-        top: 0vw;
-        right: 0vw;
-
-        width: 45vw;
-        height: 45vw;
-    }
-
-    header img {
-        top: 0vw;
-        right: 0vw;
-
-        width: 40vw;
-        height: 40vw;
-    }
-    
-}
-
-/* ================================================================================================================ */
     /* Events section  */
-section {
-    height: max-content ; 
-    width: max-content;
-}
 
 .event {
     display: flex;
@@ -132,14 +27,6 @@ section {
 }
 
 /* Desktop view */
-
-    section {
-        margin-top: 20vh;
-
-        padding-top: 5vh;
-        padding-left: 25vw;
-        padding-bottom: 5vh;
-    }
     
     .event {
         width: 40vw;
@@ -189,11 +76,6 @@ section {
 
 /* Mobile view */
 @media only screen and (hover: none) and (orientation: portrait) { 
-
-    section {
-        margin-top: 15vh;
-        padding-left: 13vw;
-    }
 
     .event {
         width: 75vw;
